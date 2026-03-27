@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
@@ -34,9 +34,9 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_ETH_RPC: ${{ secrets.VITE_ETH_RPC }}
-          VITE_POLYGON_RPC: ${{ secrets.VITE_POLYGON_RPC }}
-          VITE_BSC_RPC: ${{ secrets.VITE_BSC_RPC }}
+          VITE_ETH_RPC: 'https://eth.llamarpc.com'
+          VITE_POLYGON_RPC: 'https://polygon-rpc.com'
+          VITE_BSC_RPC: 'https://bsc-dataseed.binance.org'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
