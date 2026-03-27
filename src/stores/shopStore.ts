@@ -21,7 +21,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 1,
     currency: 'rare',
     price: ITEM_TIERS[1].price,
-    image: '/assets/skins/dog_basic.png',
+    image: '/assets/skins/dog_basic.svg',
     category: 'skin'
   },
   'skin_cyber_cat': {
@@ -31,7 +31,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 3,
     currency: 'rare',
     price: ITEM_TIERS[3].price,
-    image: '/assets/skins/cat_cyber.png',
+    image: '/assets/skins/cat_cyber.svg',
     category: 'skin'
   },
   'skin_dragon_mythic': {
@@ -41,7 +41,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 6,
     currency: 'rare',
     price: ITEM_TIERS[6].price,
-    image: '/assets/skins/dragon.png',
+    image: '/assets/skins/dragon.svg',
     category: 'skin'
   },
   'scene_basic_room': {
@@ -51,7 +51,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 1,
     currency: 'balance',
     price: ITEM_TIERS[1].price,
-    image: '/assets/scenes/room_basic.png',
+    image: '/assets/scenes/room_basic.svg',
     category: 'scene'
   },
   'scene_cyber_city': {
@@ -61,7 +61,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 4,
     currency: 'balance',
     price: ITEM_TIERS[4].price,
-    image: '/assets/scenes/city_cyber.png',
+    image: '/assets/scenes/city_cyber.svg',
     category: 'scene'
   },
   'decor_basic_lamp': {
@@ -71,7 +71,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 1,
     currency: 'balance',
     price: ITEM_TIERS[1].price,
-    image: '/assets/decor/lamp_basic.png',
+    image: '/assets/decor/lamp_basic.svg',
     category: 'decoration'
   },
   'decor_comfy_sofa': {
@@ -81,7 +81,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 2,
     currency: 'balance',
     price: ITEM_TIERS[2].price,
-    image: '/assets/decor/sofa_comfy.png',
+    image: '/assets/decor/sofa_comfy.svg',
     category: 'decoration'
   },
   'decor_disco_ball': {
@@ -91,7 +91,7 @@ const SHOP_ITEMS: Record<string, ShopItem> = {
     tier: 4,
     currency: 'balance',
     price: ITEM_TIERS[4].price,
-    image: '/assets/decor/disco_ball.png',
+    image: '/assets/decor/disco_ball.svg',
     category: 'decoration'
   }
 };
